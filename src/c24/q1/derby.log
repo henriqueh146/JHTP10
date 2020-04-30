@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Feb 27 08:49:17 GFT 2020:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instância a816c00e-0170-867a-c2d3-00000708ef50
+no diretório de banco de dados C:\Users\Avell\Documents\Teste_Java\C24\q1\books 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_161-b12
+user.dir=C:\Users\Avell\Documents\Teste_Java\C24\q1
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
