@@ -1,0 +1,2 @@
+This repository contains my solutions for the Java How To Program 10th Edition (Deitel) programming exercises. The code files are organized by chapter into the src directory. Each file contains the statement "package chNumberOfChapter.qNumberOfExercise", and the directory organization mirrors this package statement. So, the exercises are organized by chapter in its own directory, which is inside the chapter directory.
+It is not complete, and I'll be adding new solutions from time to time.
