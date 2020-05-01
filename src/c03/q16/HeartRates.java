@@ -1,9 +1,4 @@
-package c03.q316;
-
-// Segundo a American Heart Association
-// (AHA) (www.americanheart.org/presenter.jhtml?identifier=4736), a fórmula para calcular a frequência cardíaca
-// máxima por minuto é 220 menos a idade em anos. Sua frequência cardíaca alvo é um intervalo entre 50-85% da sua frequência cardíaca
-// máxima.
+package c03.q16;
 
 public class HeartRates
 {
@@ -69,11 +64,30 @@ public class HeartRates
 	{
 		return year;
 	}
-// A classe também deve incluir um método
-// que calcule e retorne a idade (em anos), 
 
-	public 
+	public int calculateAge(int day, int month, int year)
+	{
+		if(month > this.month)
+			return year - this.year;
+		if(month < this.month)
+			return year - this.year - 1;
+		if(day >= this.day)
+			return year - this.year;
 
-	//um que calcule e retorne a frequência cardíaca máxima e um que calcule e retorne a frequência
-// cardíaca alvo da pessoa
+		return year - this.year - 1;
+	}
+
+	public double maxHeartRate(int day, int month, int year)
+	{
+		return 220.0 - calculateAge(day, month, year);
+	}
+	/*
+	Target Heart Rate is between 50% and 85% of the max rate. 
+	In this chapter and in the previous is not given any way to return more than one value to the caller. 
+	So, I decided to return the maximum value and calculate the minimum value of the target rate at the caller.
+	*/
+	public double targetRate(int day, int month, int year)
+	{
+		return maxHeartRate(day, month, year) * 0.85;
+	}
 }

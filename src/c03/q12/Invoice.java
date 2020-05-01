@@ -1,3 +1,5 @@
+package c03.q12;
+
 public class InvoiceQ12{
 
 	private String number;
@@ -5,7 +7,7 @@ public class InvoiceQ12{
 	private int qty;
 	private double price;
 
-	public InvoiceQ12(String number, String description, int qty, double price){
+	public Invoice(String number, String description, int qty, double price){
 
 		this.number = number;
 		this.description = description;

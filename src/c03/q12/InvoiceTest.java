@@ -1,6 +1,8 @@
+package c03.q12;
+
 import javax.swing.JOptionPane;
 
-public class InvoiceTestQ12{
+public class InvoiceTest{
 
 	public static void main(String[] args){
 		String number;

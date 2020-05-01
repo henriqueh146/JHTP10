@@ -1,5 +1,7 @@
+package c03.q11;
+
 //name, balance construtor, deposit, getbalancce, setname, getname
-public class AccountQ311{
+public class Account{
 
 	private String name;
 	private double balance;

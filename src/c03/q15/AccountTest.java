@@ -1,6 +1,8 @@
+package c03.q15;
+
 import java.util.Scanner;
 
-public class AccountTestQ314{
+public class AccountTest{
 
 	public static void main(String[] args){
 

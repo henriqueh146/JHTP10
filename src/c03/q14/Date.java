@@ -1,6 +1,8 @@
+package c03.q14;
+
 import javax.swing.JOptionPane;
 
-public class DateQ314{
+public class Date{
 
 	private int mes;
 	private int dia;

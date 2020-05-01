@@ -1,4 +1,6 @@
-public class EmployeeQ313{
+package c03.q13;
+
+public class Employee{
 
 	String name;
 	String lastName;

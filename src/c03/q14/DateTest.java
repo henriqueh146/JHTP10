@@ -1,6 +1,8 @@
+package c03.q14;
+
 import javax.swing.JOptionPane;
 
-public class DateTestQ314{
+public class DateTest{
 
 	public static void main(String[] args){
 

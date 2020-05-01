@@ -1,6 +1,8 @@
+package c03.q13;
+
 import javax.swing.JOptionPane;
 
-public class EmployeeTestQ313{
+public class EmployeeTest{
 
 	public static void main(String[] args){
 		String frase;
